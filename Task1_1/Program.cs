@@ -8,20 +8,20 @@
 
             //задача 1
 
-            //int a = Convert.ToInt32(Console.ReadLine());
-            //int b = Convert.ToInt32(Console.ReadLine());
-            //int c = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
 
-            //int t = a;
-            //a = c;
-            //c = t;
+            int t = a;
+            a = c;
+            c = t;
 
-            //t = b;
-            //b = c;
-            //c = t;
+            t = b;
+            b = c;
+            c = t;
 
-            //Console.WriteLine($"a = {a}, b = {b}, c =  {c}"); 
-            //Console.ReadKey();
+            Console.WriteLine($"a = {a}, b = {b}, c =  {c}");
+            Console.ReadKey();
 
             //задача 2
 
@@ -79,12 +79,12 @@
 
             //Задача 6
 
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
 
-            (a,b)=(b,a);
+            //(a,b)=(b,a);
 
-            Console.WriteLine($"a = {a} b = {b}");
+            //Console.WriteLine($"a = {a} b = {b}");
 
 
         }
