@@ -8,14 +8,14 @@ namespace Task1_3
         {
             //Задача 1
 
-            /*int value1 = Convert.ToInt32(Console.ReadLine());
+            int value1 = Convert.ToInt32(Console.ReadLine());
             int value2 = Convert.ToInt32(Console.ReadLine());
 
             if (value1 > value2)
                 Console.WriteLine(">");
             else if (value1 < value2)
                 Console.WriteLine("<");
-            else Console.WriteLine("=");*/
+            else Console.WriteLine("=");
 
             //Задача 2
 
@@ -181,8 +181,174 @@ namespace Task1_3
                 Console.WriteLine("Участок не подходит");
         */
 
+            //Задача 12
 
+
+            /*Console.WriteLine("Введите число в диапазоне от 100 до 999:");
+            int value = Convert.ToInt32(Console.ReadLine());
+            if (value < 100 || value > 999)
+            {
+                Console.WriteLine("Данное число не входит в заданный диапазон!");
+                return;
+            }
+
+            int value100 = value / 100;
+            int value10 = (value % 100) / 10;
+            int value11 = value % 100;
+            int value1 = value % 10;
+
+            string nameValue = "";
+
+            switch (value100)
+            {
+
+                case 1:
+                    nameValue += "Сто ";
+                    break;
+                case 2:
+                    nameValue += "Двести ";
+                    break;
+                case 3:
+                    nameValue += "Триста ";
+                    break;
+                case 4:
+                    nameValue += "Четыреста ";
+                    break;
+                case 5:
+                    nameValue += "Пятьсот ";
+                    break;
+                case 6:
+                    nameValue += "Шетьсот ";
+                    break;
+                case 7:
+                    nameValue += "Семьсот ";
+                    break;
+                case 8:
+                    nameValue += "Восемьсот ";
+                    break;
+                case 9:
+                    nameValue += "Девятьсот ";
+                    break;
+
+                default:
+                    break;
+            }
+
+            if (value11 >= 11 && value11 < 20)
+            {
+                switch (value11)
+                {
+                    case 11:
+                        nameValue += "одинадцать";
+
+                        break;
+                    case 12:
+                        nameValue += "двенадцать";
+                        break;
+                    case 13:
+                        nameValue += "тринадцать";
+                        break;
+                    case 14:
+                        nameValue += "четырнадцать";
+                        break;
+                    case 15:
+                        nameValue += "пятнадцать";
+                        break;
+                    case 16:
+                        nameValue += "шестнадцать";
+                        break;
+                    case 17:
+                        nameValue += "семнадцать";
+                        break;
+                    case 18:
+                        nameValue += "восемнадцать";
+                        break;
+                    case 19:
+                        nameValue += "девятнадцать";
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+            else
+            {
+                switch (value10)
+                {
+                    case 1:
+                        nameValue += "десять ";
+
+                        break;
+                    case 2:
+                        nameValue += "двадцать ";
+                        break;
+                    case 3:
+                        nameValue += "тридцать ";
+                        break;
+                    case 4:
+                        nameValue += "сорок ";
+                        break;
+                    case 5:
+                        nameValue += "пятьдесят ";
+                        break;
+                    case 6:
+                        nameValue += "шестьдесят ";
+                        break;
+                    case 7:
+                        nameValue += "семьдесят ";
+                        break;
+                    case 8:
+                        nameValue += "восемьдесят ";
+                        break;
+                    case 9:
+                        nameValue += "девяносто ";
+                        break;
+
+                    default:
+                        break;
+                }
+
+
+                switch (value1)
+                {
+                    case 1:
+                        nameValue += "один";
+
+                        break;
+                    case 2:
+                        nameValue += "два";
+                        break;
+                    case 3:
+                        nameValue += "три";
+                        break;
+                    case 4:
+                        nameValue += "четыре";
+                        break;
+                    case 5:
+                        nameValue += "пять";
+                        break;
+                    case 6:
+                        nameValue += "шесть";
+                        break;
+                    case 7:
+                        nameValue += "семь";
+                        break;
+                    case 8:
+                        nameValue += "восемь";
+                        break;
+                    case 9:
+                        nameValue += "девять";
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+
+            Console.WriteLine(nameValue);
+
+        }*/
         }
-        
-    }
+
 }
+
