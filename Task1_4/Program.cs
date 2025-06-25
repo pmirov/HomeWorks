@@ -6,7 +6,7 @@
         {
             //Задача 1
 
-            /*int value = Convert.ToInt32(Console.ReadLine());
+            int value = Convert.ToInt32(Console.ReadLine());
 
             long factorial = 1;
 
@@ -15,7 +15,7 @@
                 factorial *= i;
             }
 
-            Console.WriteLine(factorial);*/
+            Console.WriteLine(factorial);
 
             //Задача 2
 
@@ -151,7 +151,7 @@
 
 
             //Задача 8
-            while(true)
+            /*while(true)
             {
                 Console.WriteLine("Введите число:");
                 int a = Convert.ToInt32(Console.ReadLine());
@@ -179,8 +179,8 @@
                 }
 
                 Console.WriteLine(revesedA.ToString());
-            }
-            
+            }*/
+
 
 
 
