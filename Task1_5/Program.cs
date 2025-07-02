@@ -7,7 +7,7 @@
 
             //Задача 1
 
-            /*Random random = new Random();
+            Random random = new Random();
             int[] arr = new int[10];
             int evenCount = 0;
 
@@ -24,8 +24,8 @@
                 Console.WriteLine("Четных чисел больше");
             else if (evenCount < arr.Length - evenCount)
                 Console.WriteLine("Нечетных чисел больше");
-            else 
-                Console.WriteLine("Количество четных чисел равно количеству нечетных");*/
+            else
+                Console.WriteLine("Количество четных чисел равно количеству нечетных");
 
             //Задача 2
 
@@ -296,7 +296,7 @@
 
             //Задача 10
 
-            const int n = 4;
+            /*const int n = 4;
             int[,] arr = new int[n, n];
 
 
@@ -400,7 +400,7 @@
             {
                 Console.WriteLine("Ничья");
             }
-
+*/
         }
     }
 }
