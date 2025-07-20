@@ -16,7 +16,7 @@
             BankAccount acc3 = new BankAccount();
             BankAccount.ShowTotalAccouts();
             Console.WriteLine($"Номера счетов: {acc1.AccountNumber}, {acc2.AccountNumber}, {acc3.AccountNumber}");
-            Console.WriteLine(acc2.Balance);
+
 
         }
     }
