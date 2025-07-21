@@ -29,10 +29,10 @@ namespace Task1_10_1
         public Building(string address, double area, int yearBuilt)
         {
             if (area <= 0)
-               area = 0;
+                throw new ArgumentException("Площадь должна быть > 0");
 
             if (yearBuilt <= 0)
-                yearBuilt = 0;
+                throw new ArgumentException("Год постройки должен быть > 0");
 
             _address = address;
             _area = area;

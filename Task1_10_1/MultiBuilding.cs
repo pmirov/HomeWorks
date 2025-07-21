@@ -24,6 +24,8 @@ namespace Task1_10_1
         public MultiBuilding(string address, double area, int yearBuilt, int floors, bool hasElevator)
             : base(address, area, yearBuilt)
         {
+            if (floors <= 0)
+                throw new ArgumentException("Количество этажей должно быть > 0");
             _floors = floors;
             _hasElevator = hasElevator;
         }
@@ -50,9 +52,7 @@ namespace Task1_10_1
         {
             string yesNo = _hasElevator ? "да" : "нет";
 
-            base.DisplayInfo();
-            Console.Write($"\nколичество этажей: {_floors}, \nналичие лифта: {yesNo}, \nсредняя площадь этажа: {AreaPerFloor} м2");
-
+            Console.WriteLine($"\nЗдание расположено по адресу: {_address}, \nплощадь здания: {_area} м2, \nгод постройки: {_yearBuilt} г., \nвозраст здания: {BuildingAge} л., \nколичество этажей: {_floors}, \nналичие лифта: {yesNo}, \nсредняя площадь этажа: {AreaPerFloor} м2");
 
             Console.WriteLine("-------------------");
            
