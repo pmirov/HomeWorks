@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Task_1_11_2
+{
+    internal interface IFlyable
+    {
+        int MaxAttitude { get; }
+        void Fly();
+
+    }
+}
